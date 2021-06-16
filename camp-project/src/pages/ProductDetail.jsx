@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { Button, Card, Image } from 'semantic-ui-react'
-import ProductService from '../Services/productService'
+import ProductService from "../services/productService";
 
 export default function ProductDetail() {
     let { name } = useParams(); //useParams() parametreleri obje olarak döndürür.
